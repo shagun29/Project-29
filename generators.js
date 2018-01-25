@@ -21,10 +21,10 @@ function* show2(){
     yield 'Live d way u want to live'
     yield 'it\'s u what matters '
     yield 'so i ends with all wht i want to say.!'
+  //  yield `hey hola hola hola yo man.! ${show()}`
 }
 
 const p2 = show2()
 for(const n of p2){
     console.log(n)
 }
-

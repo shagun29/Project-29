@@ -10,11 +10,11 @@ const p = new Promise((resolve,reject) =>
         ,2000) 
     })
 
-    p.then(
-        data => {
-            console.log(data)
-        }
-    )
+    // p.then(
+    //     data => {
+    //         console.log(data)
+    //     }
+    // )
 
     p.catch(err => {
         console.log(err)
